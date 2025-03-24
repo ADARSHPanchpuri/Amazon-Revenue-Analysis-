@@ -563,12 +563,6 @@ ORDER BY total_revenue DESC;
 
 
 
-**Testing Store Procedure**
-call add_sales
-(
-25005, 2, 5, 25004, 1, 14
-);
-
 ---
 
 ---
