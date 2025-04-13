@@ -1,60 +1,56 @@
+Project Overview
+I analyzed a dataset containing over 20,000 sales records from an Amazon-like e-commerce platform. The project focused on extracting insights related to customer behavior, product performance, and sales trends using PostgreSQL. I tackled a variety of real-world business challenges through advanced SQL queries, including revenue analysis, customer segmentation, and inventory optimization.
 
-## **Project Overview**
+Data Cleaning & Preprocessing
+To prepare the dataset for analysis, I performed the following tasks:
 
-I have worked on analyzing a dataset of over 20,000 sales records from an Amazon-like e-commerce platform. This project involves extensive querying of customer behavior, product performance, and sales trends using PostgreSQL. Through this project, I have tackled various SQL problems, including revenue analysis, customer segmentation, and inventory management.
+Duplicate Removal: Identified and eliminated duplicate entries in the customer and order tables.
 
-The project also focuses on data cleaning, handling null values, and solving real-world business problems using structured queries.
+Null Handling:
 
-## **Task: Data Cleaning**
+Missing customer addresses were replaced with default placeholders.
 
-I cleaned the dataset by:
-- **Removing duplicates**: Duplicates in the customer and order tables were identified and removed.
-- **Handling missing values**: Null values in critical fields (e.g., customer address, payment status) were either filled with default values or handled using appropriate methods.
+Null payment statuses were categorized as “Pending.”
 
----
+Null return dates were retained, as not all orders were returned.
 
-## **Handling Null Values**
+Project Objective
+The core goal was to apply advanced SQL to solve practical e-commerce business problems. Key analysis areas included:
 
-Null values were handled based on their context:
-- **Customer addresses**: Missing addresses were assigned default placeholder values.
-- **Payment statuses**: Orders with null payment statuses were categorized as “Pending.”
-- **Shipping information**: Null return dates were left as is, as not all shipments are returned.
+Customer purchase patterns
 
----
+Product sales performance
 
-## **Objective**
+Inventory management insights
 
-The primary objective of this project is to showcase SQL proficiency through complex queries that address real-world e-commerce business challenges. The analysis covers various aspects of e-commerce operations, including:
-- Customer behavior
-- Sales trends
-- Inventory management
-- Payment and shipping analysis
-- Forecasting and product performance
-  
+Payment and shipping behavior
 
-## **Identifying Business Problems**
+Forecasting and return analysis
 
-Key business problems identified:
-1. Low product availability due to inconsistent restocking.
-2. High return rates for specific product categories.
-3. Significant delays in shipments and inconsistencies in delivery times.
-4. High customer acquisition costs with a low customer retention rate.
+Key Business Problems Identified
 
+Inconsistent product restocking led to low availability.
 
-## **Learning Outcomes**
+Certain product categories had high return rates.
 
-This project enabled me to:
-- Design and implement a normalized database schema.
-- Clean and preprocess real-world datasets for analysis.
-- Use advanced SQL techniques, including window functions, subqueries, and joins.
-- Conduct in-depth business analysis using SQL.
-- Optimize query performance and handle large datasets efficiently.
+Shipment delays and irregular delivery times were prevalent.
 
----
+High customer acquisition costs were coupled with low retention.
 
-## **Conclusion**
+Key Learning Outcomes
+Through this project, I:
 
-This advanced SQL project successfully demonstrates my ability to solve real-world e-commerce problems using structured queries. From improving customer retention to optimizing inventory and logistics, the project provides valuable insights into operational challenges and solutions.
+Designed and worked with a normalized relational database.
 
-By completing this project, I have gained a deeper understanding of how SQL can be used to tackle complex data problems and drive business decision-making.
+Cleaned and preprocessed real-world datasets effectively.
+
+Applied advanced SQL techniques including window functions, CTEs, subqueries, and complex joins.
+
+Conducted comprehensive business analysis using SQL.
+
+Optimized queries for performance on large datasets.
+
+Conclusion
+This advanced SQL project showcases my ability to apply structured queries to address complex business challenges in the e-commerce space. From enhancing customer retention strategies to improving inventory and logistics, the project demonstrates how data-driven decisions can be made using SQL. It strengthened both my technical and analytical skills, offering practical exposure to solving real-world problems.
+
 
