@@ -1,4 +1,4 @@
-*## 📦 E-commerce Sales Analysis using PostgreSQL*
+*##  E-commerce Sales Analysis using PostgreSQL*
 
 *### Project Overview*
 
@@ -6,7 +6,7 @@ This project focuses on analyzing a dataset of 20,000+ sales records from an Ama
 
 ---
 
-*### 🧹 Data Cleaning*
+*###  Data Cleaning*
 
 To ensure accurate insights, the dataset was cleaned through:
 - **Duplicate Removal**: Eliminated redundant entries in customer and order tables.
@@ -16,7 +16,7 @@ To ensure accurate insights, the dataset was cleaned through:
 
 ---
 
-*### ⚙️ Handling Null Values*
+*###  Handling Null Values*
 
 Contextual methods were used to handle missing data:
 - **Customer Addresses**: Assigned default placeholder values where missing.
