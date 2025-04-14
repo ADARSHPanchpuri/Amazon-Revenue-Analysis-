@@ -25,7 +25,7 @@ Contextual methods were used to handle missing data:
 
 ---
 
-*### 🎯 Project Objective*
+*###  Project Objective*
 
 The goal was to demonstrate SQL proficiency through real-world business problem-solving. The analysis focused on:
 - Customer behavior trends
